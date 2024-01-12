@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: auth-server
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: auth-server
+
+logging:
+  level:
+    org:
+      springframework:
+        security: trace
